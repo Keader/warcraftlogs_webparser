@@ -1,0 +1,28 @@
+{
+  "name": "warcraftlogs_parser",
+  "version": "1.0.0",
+  "description": "web crawler for warcraft logs",
+  "main": "src/crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keader/warcraftlogs_webparser.git"
+  },
+  "keywords": [
+    "warcraft",
+    "logs"
+  ],
+  "author": "Keader <keader.android@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keader/warcraftlogs_webparser/issues"
+  },
+  "homepage": "https://github.com/Keader/warcraftlogs_webparser#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.6.2"
+  }
+}
